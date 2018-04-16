@@ -1,0 +1,263 @@
+html{
+
+
+	font-family: "proxima-nova", sans-serif ;
+	font-weight: 400;
+}
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+
+
+}
+
+.clearfix:after{
+
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.btnOne{
+
+
+	text-decoration: none;
+	color: white;
+	background: #69F0AE;
+	background: -webkit-linear-gradient(-90deg,#80D8FF,#69F0AE);
+  	background: -o-linear-gradient(-90deg,#80D8FF,#69F0AE);
+  	background: -moz-linear-gradient(-90deg,#80D8FF,#69F0AE);
+  	background: linear-gradient(-90deg,#80D8FF,#69F0AE);
+  padding: 0.75em 3em;
+  border-radius: 3px;
+  
+}
+
+h2{
+  
+  font-size: 26px;
+  font-weight: 200;
+  color: #455A64;
+}
+
+.navSection{
+
+width: 100%;
+display: inline-block;
+line-height: 90px;
+z-index: 2;
+  position: relative;
+}
+.navSectionWrapper{
+
+	width: 80%;
+	margin: auto;
+}
+.navSectionWrapper > ul{
+
+	list-style: none;
+	display: inline;
+	float: right;
+}
+
+.navSectionWrapper > ul >li {
+
+
+	display: inline-block;
+}
+
+.navSectionWrapper > ul >li a{
+
+
+	text-decoration: none;
+	color: #455A64;
+	margin: 0 1em;
+}
+
+.navSectionWrapper > ul >li a span{
+
+
+	font-weight: 500;
+	color: #69F0AE;
+}
+
+
+
+
+.navSectionWrapper > h1{
+
+float: left;
+font-size: 25px;
+
+}
+
+.navSectionWrapper > h1 span{
+
+color: #69F0AE;
+font-weight: 200;
+
+}
+
+
+
+.landingSection{
+  
+  width: 100%;
+  background-image: url(imagenes/olas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow-x: hidden;
+}
+.landingSectionWrapper{
+  
+  width: 80%;
+  margin: auto;
+  padding: 3em 0 29.5em 0; 
+  position: relative;
+}
+
+.landingSectionWrapper h1{
+  
+  font-size: 30px;
+  font-weight: 200;
+  color: #455A64;
+  margin: 1em 0 1em 0;
+  line-height: 36px;
+}
+.landingSectionWrapper img{
+  
+  width: 400px;
+  position: absolute;
+  right: -100px;
+  top: 10%;
+  z-index: 0;
+}
+
+
+
+
+
+.infoSection{
+  width: 100%;
+  
+   background-image: url(imagenes/avion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  
+}
+
+
+
+
+.infoSectionWrapper{
+  
+  width: 100%;
+  margin: auto;
+ 
+}
+
+
+.infoRow{
+  
+  display: flex; 
+}
+
+.infoItem{
+  
+  flex: 1;
+  margin: -2em 1.5em 0 1.5em;
+  border-radius: 3px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+}
+
+.infoItem > img{
+  
+  width: 100%;
+}
+
+.infoItem > h2{
+  
+  text-align: center;
+  line-height: 60px;
+}
+
+.callAction{
+  
+  padding: 10em 0 7em 0;
+   text-align: center;
+}
+
+.callAction > h2{
+  
+  margin: 1.5em 0;
+ 
+  
+  
+}
+
+.callAction > h2 span{
+  
+  font-weight: 500;
+
+}
+.linkSection{
+  
+  width: 100%;
+}
+
+.linkSectionWrapper{
+  
+  text-align: center;
+  padding: 0 0 5em 0;
+}
+.linkItem{
+  background-color: white;
+  border-radius: 3px;
+  padding: 1.5em;
+  width: 300px;
+  margin: 0 1em;
+    display: inline-block;
+  text-align: left;
+   -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.10);
+}
+
+.linkItem > p {
+  color: #B8BBBC;
+  text-decoration: none;
+  
+  
+}
+
+.linkItem img {
+  
+  float: right;
+  margin: 2px 0 0 0;
+  
+}
+
+
+.footerSection{
+  
+  text-align: center;
+  background-color: #69F0AE;
+  line-height: 60px
+}
+
+.footerSection > h3{
+  
+  font-weight: 300;
+  color: white;
+}
